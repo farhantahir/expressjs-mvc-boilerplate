@@ -1,0 +1,28 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "NodeJS & ExpressJS boilerplate based on MVC",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "MVC",
+    "Boilerplate"
+  ],
+  "author": "Farhan Tahir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
